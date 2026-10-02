@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Peter Kelly is a network engineer and IT consultant delivering CCTV, networking, access control, and infrastructure solutions for homes, businesses, and institutions.">
+    <title>Peter Kelly | Network Engineer & IT Consultant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="container navwrap">
+            <div class="brand">
+                <span class="brand-mark">PK</span>
+                <div>
+                    <strong>Peter Kelly</strong>
+                    <small>Network Engineer / IT Consultant</small>
+                </div>
+            </div>
+            <nav class="main-nav">
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="projects.html">Projects</a>
+                <a href="index.html#impact">Impact</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <button class="theme-toggle" type="button" aria-label="Toggle theme">
+                <span class="theme-toggle__icon">☀</span>
+            </button>
+            <a class="button button-small" href="contact.html">Book a consultation</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Professional technology solutions for secure growth</p>
+                    <h1>Network engineering and IT consulting built for secure, reliable business operations.</h1>
+                    <p class="lead">
+                        Peter Kelly delivers practical networking, CCTV, biometric access, electric fencing, and business technology solutions for homes, offices, schools, commercial facilities, and growing businesses across Kenya. Based in Mombasa, I am available for onsite work across the region and open to travel assignments beyond my base.
+                    </p>
+                    <div class="cta-row">
+                        <a class="button" href="https://wa.me/255711619768?text=Hello%20Peter%20Kelly%2C%20I%20would%20like%20a%20quote%20for%20your%20services." target="_blank" rel="noreferrer">Request a quote</a>
+                        <a class="button button-secondary" href="tel:+255711619768">Call 0711619768</a>
+                        <a class="button button-secondary" href="#services">Explore services</a>
+                    </div>
+                    <ul class="quick-facts">
+                        <li>Security & access solutions</li>
+                        <li>Networking & infrastructure</li>
+                        <li>Business software & support</li>
+                    </ul>
+                </div>
+
+                <div class="hero-panel">
+                    <div class="profile-card">
+                        <img src="images/profile pic.jpeg" alt="Peter Kelly" class="profile-photo">
+                        <div class="profile-badge">Available for projects</div>
+                        <div class="profile-details">
+                            <h2>Peter Kelly</h2>
+                            <p>Network Engineer • IT Consultant • Security & Infrastructure Specialist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">About</p>
+                    <h2>Technology expertise rooted in practical execution.</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-copy">
+                        <p>
+                            Peter Kelly is a network engineer and IT consultant focused on delivering practical, dependable solutions across networking, cybersecurity, CCTV, biometric access, and infrastructure support.
+                        </p>
+                        <p>
+                            From surveillance systems and access control to structured networking, site installations, and business technology support, I help clients secure their environments, improve efficiency, and build systems they can rely on long after deployment.
+                        </p>
+                        <div class="mini-stats">
+                            <div>
+                                <strong>7+</strong>
+                                <span>Years of technical delivery</span>
+                            </div>
+                            <div>
+                                <strong>120+</strong>
+                                <span>Projects completed</span>
+                            </div>
+                            <div>
+                                <strong>24/7</strong>
+                                <span>Support mindset</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-panel">
+                        <h3>Core capabilities</h3>
+                        <ul>
+                            <li>Security system design, installation, and maintenance</li>
+                            <li>CCTV, biometrics, and perimeter protection solutions</li>
+                            <li>Networking, structured cabling, and infrastructure setup</li>
+                            <li>Business process software and operational automation</li>
+                            <li>Site support, troubleshooting, and technical consultations</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section section-alt">
+            <div class="container">
+                <div class="section-heading center">
+                    <p class="eyebrow">Services</p>
+                    <h2>Solutions designed for performance, protection, and growth.</h2>
+                </div>
+
+                <div class="service-grid">
+                    <article class="service-card" onclick="openModal('Software Development', 'Custom business software for POS, PMS, attendance, inventory, and reporting systems designed to streamline operations and improve accountability.', ['images/software.jfif','https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80'])">
+                        <img src="images/software.jfif" alt="Software Development">
+                        <div class="service-body">
+                            <span class="pill">Software</span>
+                            <h3>Business Software</h3>
+                            <p>Operational systems for POS, PMS, attendance, reporting, inventory, and workflow automation.</p>
+                        </div>
+                    </article>
+
+                    <article class="service-card" onclick="openModal('CCTV Installation & Maintenance', 'Professional design and installation of IP and analog surveillance systems, including monitoring, recording, remote access, and ongoing maintenance support.', ['images/cctv.jpg','https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=900&q=80'])">
+                        <img src="images/cctv.jpg" alt="CCTV Installation">
+                        <div class="service-body">
+                            <span class="pill">Security</span>
+                            <h3>CCTV Installation</h3>
+                            <p>High-quality camera systems, NVR setups, and dependable monitoring solutions for active protection.</p>
+                        </div>
+                    </article>
+
+                    <article class="service-card" onclick="openModal('Networking & Infrastructure', 'Structured networking solutions for offices, campuses, institutions, and commercial spaces, including cabling, wireless deployment, routing, and system optimization.', ['images/networking.jpeg','https://images.unsplash.com/photo-1558494949cc5c5d4d2f7aa0d7a9d0a2a?auto=format&fit=crop&w=900&q=80'])">
+                        <img src="images/networking.jpeg" alt="Networking">
+                        <div class="service-body">
+                            <span class="pill">Infrastructure</span>
+                            <h3>Networking</h3>
+                            <p>LAN/WAN planning, cabling, routers, switches, and wireless systems built for dependable performance.</p>
+                        </div>
+                    </article>
+
+                    <article class="service-card" onclick="openModal('Electric Fence Systems', 'Perimeter protection solutions for homes, compounds, commercial sites, and industrial spaces with energizers, grounding, and security integration.', ['images/Electric fence.jpg','https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80'])">
+                        <img src="images/Electric fence.jpg" alt="Electric Fence">
+                        <div class="service-body">
+                            <span class="pill">Perimeter Security</span>
+                            <h3>Electric Fence Systems</h3>
+                            <p>Effective boundary protection designed to deter intrusion and improve property safety.</p>
+                        </div>
+                    </article>
+
+                    <article class="service-card" onclick="openModal('Biometric Systems', 'Secure access control systems using fingerprint and facial verification for offices, staff areas, residential compounds, and institutional facilities.', ['images/Biometric.jpg','https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=900&q=80'])">
+                        <img src="images/Biometric.jpg" alt="Biometric Systems">
+                        <div class="service-body">
+                            <span class="pill">Access Control</span>
+                            <h3>Biometric Systems</h3>
+                            <p>Identity-based access solutions for secure entry, attendance, and site protection.</p>
+                        </div>
+                    </article>
+
+                    <article class="service-card" onclick="openModal('System Support & Maintenance', 'Ongoing technical support, troubleshooting, preventive maintenance, and system optimization to keep your infrastructure efficient and dependable.', ['https://images.unsplash.com/photo-1581092921461-eab62e97a1d7?auto=format&fit=crop&w=900&q=80','https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80'])">
+                        <img src="https://images.unsplash.com/photo-1581092921461-eab62e97a1d7?auto=format&fit=crop&w=900&q=80" alt="Technical support">
+                        <div class="service-body">
+                            <span class="pill">Support</span>
+                            <h3>System Support</h3>
+                            <p>Responsive service, diagnostics, and maintenance planning tailored to your environment.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Packages</p>
+                    <h2>Flexible solutions for businesses ready to upgrade.</h2>
+                </div>
+
+                <div class="pricing-grid">
+                    <article class="price-card">
+                        <span class="price-tag">Core service</span>
+                        <h3>Security Setup</h3>
+                        <ul>
+                            <li>CCTV recommendations</li>
+                            <li>Basic camera installation</li>
+                            <li>Maintenance support</li>
+                        </ul>
+                        <a class="button button-secondary" href="#contact">Get started</a>
+                    </article>
+
+                    <article class="price-card featured-plan">
+                        <span class="price-tag">Most popular</span>
+                        <h3>Business Infrastructure</h3>
+                        <ul>
+                            <li>Networking design</li>
+                            <li>Access control integration</li>
+                            <li>System testing and support</li>
+                        </ul>
+                        <a class="button" href="#contact">Book a consultation</a>
+                    </article>
+
+                    <article class="price-card">
+                        <span class="price-tag">Custom</span>
+                        <h3>IT Support & Automation</h3>
+                        <ul>
+                            <li>Business software support</li>
+                            <li>Attendance & POS systems</li>
+                            <li>Workflow automation</li>
+                        </ul>
+                        <a class="button button-secondary" href="#contact">Request quote</a>
+                    </article>
+                </div>
+
+                <div class="trust-strip" style="margin-top: 30px;">
+                    <p class="eyebrow" style="margin-bottom: 18px; text-align: center;">Trusted by / Service provider partnerships</p>
+                    <div class="brand-strip">
+                        <span>foritu.io</span>
+                        <span>Fastown East Africa Limited</span>
+                        <span>Best Biz</span>
+                        <span>Cloud Seven Computers</span>
+                        <span>Fiftyplus Solutions</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section section-alt">
+            <div class="container">
+                <div class="section-heading center">
+                    <p class="eyebrow">Project catalog</p>
+                    <h2>Installed systems, devices, and solutions.</h2>
+                </div>
+
+                <div class="catalog-toolbar">
+                    <button class="filter-btn active" type="button" data-filter="all">All</button>
+                    <button class="filter-btn" type="button" data-filter="cctv">CCTV</button>
+                    <button class="filter-btn" type="button" data-filter="networking">Networking</button>
+                    <button class="filter-btn" type="button" data-filter="security">Security</button>
+                    <button class="filter-btn" type="button" data-filter="access-control">Access Control</button>
+                    <button class="filter-btn" type="button" data-filter="it-tech">IT Tech</button>
+                    <button class="filter-btn" type="button" data-filter="support">Support</button>
+                </div>
+
+                <div class="asset-gallery">
+                    <article class="asset-card" data-category="security">
+                        <img src="images/3%20mp%20wifi%20tiandy%20nany%20camera.jpeg" alt="3 MP WiFi Tiandy camera">
+                        <div class="asset-copy">
+                            <span class="asset-type">Wireless CCTV</span>
+                            <h3>Tiandy 3MP WiFi Camera</h3>
+                            <p>Compact surveillance unit for flexible monitoring in homes, shops, and small facilities.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Model</span><strong>Tiandy 3MP WiFi</strong></div>
+                                <div class="spec-row"><span>Resolution</span><strong>3 MP</strong></div>
+                                <div class="spec-row"><span>Install</span><strong>Wireless</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="security">
+                        <img src="images/4%20mp%20tiandy%20cameera%20full%20color.jpeg" alt="4 MP Tiandy full color camera">
+                        <div class="asset-copy">
+                            <span class="asset-type">Full-color CCTV</span>
+                            <h3>Tiandy 4MP Full-Color Camera</h3>
+                            <p>High-detail security camera built for low-light visibility and clearer identification.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Model</span><strong>Tiandy 4MP FC</strong></div>
+                                <div class="spec-row"><span>Resolution</span><strong>4 MP</strong></div>
+                                <div class="spec-row"><span>Use</span><strong>Night visibility</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="access">
+                        <img src="images/Biometric.jpg" alt="Biometric access system">
+                        <div class="asset-copy">
+                            <span class="asset-type">Access Control</span>
+                            <h3>Biometric Access Terminal</h3>
+                            <p>Fingerprint or face-based verification unit for controlled employee and visitor access.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Model</span><strong>Biometric Reader</strong></div>
+                                <div class="spec-row"><span>Method</span><strong>Fingerprint/Face</strong></div>
+                                <div class="spec-row"><span>Use</span><strong>Entry control</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="networking">
+                        <img src="images/cabinate%20management.jpeg" alt="Cabinet management installation">
+                        <div class="asset-copy">
+                            <span class="asset-type">Rack Infrastructure</span>
+                            <h3>Cabinet Management</h3>
+                            <p>Organized enclosure setup for network, power, and CCTV system reliability.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Type</span><strong>Rack cabinet</strong></div>
+                                <div class="spec-row"><span>Purpose</span><strong>Distribution</strong></div>
+                                <div class="spec-row"><span>Install</span><strong>Indoor cabinet</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="networking">
+                        <img src="images/cabinate%20setup.jpeg" alt="Cabinet setup installation">
+                        <div class="asset-copy">
+                            <span class="asset-type">Network Cabinet</span>
+                            <h3>Cabinet Setup &amp; Termination</h3>
+                            <p>Professional rack arrangement for stable connectivity and safe equipment housing.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Type</span><strong>Patch cabinet</strong></div>
+                                <div class="spec-row"><span>Use</span><strong>Termination</strong></div>
+                                <div class="spec-row"><span>Install</span><strong>Structured</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="site">
+                        <img src="images/camera%20maintenance.jpeg" alt="Camera maintenance work">
+                        <div class="asset-copy">
+                            <span class="asset-type">Maintenance</span>
+                            <h3>Camera Servicing</h3>
+                            <p>Routine cleaning, diagnostics, alignment, and troubleshooting for long-term surveillance performance.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Task</span><strong>Service</strong></div>
+                                <div class="spec-row"><span>Focus</span><strong>Diagnostics</strong></div>
+                                <div class="spec-row"><span>Output</span><strong>Stable video</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="security">
+                        <img src="images/cctv.jpg" alt="CCTV system">
+                        <div class="asset-copy">
+                            <span class="asset-type">Surveillance</span>
+                            <h3>CCTV Surveillance System</h3>
+                            <p>Complete video security setup for real-time monitoring, review, and incident response.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>System</span><strong>Multi-camera CCTV</strong></div>
+                                <div class="spec-row"><span>Recording</span><strong>NVR support</strong></div>
+                                <div class="spec-row"><span>Access</span><strong>Remote viewing</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="access">
+                        <img src="images/dp%20for%20biometric%20psu.jpeg" alt="Biometric power supply">
+                        <div class="asset-copy">
+                            <span class="asset-type">Power Supply</span>
+                            <h3>Biometric PSU Unit</h3>
+                            <p>Power backup and supply support for biometric terminals and access control equipment.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Type</span><strong>PSU</strong></div>
+                                <div class="spec-row"><span>Purpose</span><strong>Stable power</strong></div>
+                                <div class="spec-row"><span>Use</span><strong>Access continuity</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="security">
+                        <img src="images/Electric%20fence.jpg" alt="Electric fence installation">
+                        <div class="asset-copy">
+                            <span class="asset-type">Perimeter Security</span>
+                            <h3>Electric Fence System</h3>
+                            <p>Perimeter deterrent solution for securing vulnerable property boundaries and external zones.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Type</span><strong>Security barrier</strong></div>
+                                <div class="spec-row"><span>System</span><strong>Energizer/earthing</strong></div>
+                                <div class="spec-row"><span>Use</span><strong>Perimeter defense</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="site">
+                        <img src="images/exit%20signage.jpeg" alt="Exit signage installation">
+                        <div class="asset-copy">
+                            <span class="asset-type">Safety Signage</span>
+                            <h3>Exit Signage Setup</h3>
+                            <p>Emergency path signage for safe egress and compliance in public and commercial spaces.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Type</span><strong>Exit signage</strong></div>
+                                <div class="spec-row"><span>Lighting</span><strong>Illuminated</strong></div>
+                                <div class="spec-row"><span>Use</span><strong>Safety routing</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="security">
+                        <img src="images/hik%202%20mp%20analogue%20smart%20hybrid.jpeg" alt="Hikvision hybrid camera">
+                        <div class="asset-copy">
+                            <span class="asset-type">Hybrid Security</span>
+                            <h3>Hikvision 2MP Hybrid Camera</h3>
+                            <p>Flexible surveillance device that supports hybrid analog and smart system integration.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Model</span><strong>Hikvision 2MP</strong></div>
+                                <div class="spec-row"><span>Resolution</span><strong>2 MP</strong></div>
+                                <div class="spec-row"><span>Support</span><strong>Hybrid</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="networking">
+                        <img src="images/hik%20vision%20AC1200%20router.jpeg" alt="Hikvision AC1200 router">
+                        <div class="asset-copy">
+                            <span class="asset-type">Networking</span>
+                            <h3>Hikvision AC1200 Router</h3>
+                            <p>Wireless routing hardware for IP devices, remote connectivity, and system communication.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Model</span><strong>AC1200</strong></div>
+                                <div class="spec-row"><span>Band</span><strong>Dual-band</strong></div>
+                                <div class="spec-row"><span>Use</span><strong>Wireless routing</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="security">
+                        <img src="images/hikvision%20solar%20pt.jpeg" alt="Hikvision solar PT camera">
+                        <div class="asset-copy">
+                            <span class="asset-type">Solar Security</span>
+                            <h3>Solar PT Camera</h3>
+                            <p>Self-powered outdoor surveillance system suitable for remote or off-grid locations.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Power</span><strong>Solar</strong></div>
+                                <div class="spec-row"><span>Motion</span><strong>Pan/Tilt</strong></div>
+                                <div class="spec-row"><span>Deploy</span><strong>Remote site</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="site">
+                        <img src="images/my%20self.jpeg" alt="Peter Kelly portrait">
+                        <div class="asset-copy">
+                            <span class="asset-type">Profile</span>
+                            <h3>Peter Kelly</h3>
+                            <p>Network engineer and IT consultant focused on secure, practical deployment.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Role</span><strong>Tech engineer</strong></div>
+                                <div class="spec-row"><span>Focus</span><strong>Security &amp; systems</strong></div>
+                                <div class="spec-row"><span>Delivery</span><strong>On-site</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="networking">
+                        <img src="images/networking.jpeg" alt="Networking equipment">
+                        <div class="asset-copy">
+                            <span class="asset-type">Infrastructure</span>
+                            <h3>Networking Equipment</h3>
+                            <p>Switches and connectivity hardware supporting LAN/WAN and secure data flow.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Type</span><strong>Switch/router</strong></div>
+                                <div class="spec-row"><span>Use</span><strong>Data network</strong></div>
+                                <div class="spec-row"><span>Deploy</span><strong>Office/site</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="networking">
+                        <img src="images/poe%20switch%20tiandy.jpeg" alt="PoE switch installation">
+                        <div class="asset-copy">
+                            <span class="asset-type">Power over Ethernet</span>
+                            <h3>Tiandy PoE Switch</h3>
+                            <p>Device used to power and connect multiple IP cameras and surveillance systems.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Type</span><strong>PoE switch</strong></div>
+                                <div class="spec-row"><span>Ports</span><strong>Multi-port</strong></div>
+                                <div class="spec-row"><span>Use</span><strong>Camera power</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="site">
+                        <img src="images/profile%20pic.jpeg" alt="Peter Kelly profile photo">
+                        <div class="asset-copy">
+                            <span class="asset-type">Profile</span>
+                            <h3>Professional Portrait</h3>
+                            <p>Brand image used to present a polished, dependable technology consulting profile.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Use</span><strong>Branding</strong></div>
+                                <div class="spec-row"><span>Style</span><strong>Professional</strong></div>
+                                <div class="spec-row"><span>Impact</span><strong>Trust</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="software">
+                        <img src="images/software.jfif" alt="Software development">
+                        <div class="asset-copy">
+                            <span class="asset-type">Software</span>
+                            <h3>Business Software Systems</h3>
+                            <p>Custom software modules for POS, PMS, attendance, and inventory management.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Type</span><strong>Business app</strong></div>
+                                <div class="spec-row"><span>Features</span><strong>POS / PMS</strong></div>
+                                <div class="spec-row"><span>Use</span><strong>Operations</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="networking">
+                        <img src="images/switches.jpeg" alt="Networking switches">
+                        <div class="asset-copy">
+                            <span class="asset-type">Switching</span>
+                            <h3>Network Switches</h3>
+                            <p>Enterprise network devices for traffic control, segmentation, and stable growth.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Type</span><strong>Ethernet switch</strong></div>
+                                <div class="spec-row"><span>Role</span><strong>Traffic routing</strong></div>
+                                <div class="spec-row"><span>Use</span><strong>Network core</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="security">
+                        <img src="images/tiandy%208%20ch%20poe%20nvr.jpeg" alt="Tiandy 8 channel PoE NVR">
+                        <div class="asset-copy">
+                            <span class="asset-type">Recording</span>
+                            <h3>Tiandy 8-Channel PoE NVR</h3>
+                            <p>Video recorder integrated with PoE cameras for centralized storage and playback.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Model</span><strong>Tiandy 8CH NVR</strong></div>
+                                <div class="spec-row"><span>Channel</span><strong>8 channels</strong></div>
+                                <div class="spec-row"><span>Input</span><strong>PoE</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="security">
+                        <img src="images/tiandy%20ptz.jpeg" alt="Tiandy PTZ camera">
+                        <div class="asset-copy">
+                            <span class="asset-type">PTZ CCTV</span>
+                            <h3>Tiandy PTZ Camera</h3>
+                            <p>Pan-tilt-zoom camera used for wide-area monitoring and active surveillance control.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Type</span><strong>PTZ</strong></div>
+                                <div class="spec-row"><span>Control</span><strong>Pan/Tilt/Zoom</strong></div>
+                                <div class="spec-row"><span>Use</span><strong>Tracking</strong></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="asset-card" data-category="security">
+                        <img src="images/tiandy%20solar%20camera.jpeg" alt="Tiandy solar camera">
+                        <div class="asset-copy">
+                            <span class="asset-type">Solar Security</span>
+                            <h3>Tiandy Solar Camera</h3>
+                            <p>Autonomous outdoor camera designed for off-grid security and remote coverage.</p>
+                            <div class="spec-table">
+                                <div class="spec-row"><span>Power</span><strong>Solar</strong></div>
+                                <div class="spec-row"><span>Use</span><strong>Outdoor</strong></div>
+                                <div class="spec-row"><span>Deploy</span><strong>Remote site</strong></div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-heading center">
+                    <p class="eyebrow">Testimonials</p>
+                    <h2>Trusted by clients who value reliable execution.</h2>
+                </div>
+
+                <div class="testimonial-grid">
+                    <blockquote class="testimonial-card">
+                        <p>“Peter delivered a clean security upgrade that improved visibility and gave our team confidence from day one.”</p>
+                        <footer>— School Administrator</footer>
+                    </blockquote>
+                    <blockquote class="testimonial-card">
+                        <p>“His networking and access control work was efficient, professional, and genuinely tailored to our site needs.”</p>
+                        <footer>— Facility Manager</footer>
+                    </blockquote>
+                    <blockquote class="testimonial-card">
+                        <p>“The support was responsive and practical. We saw better monitoring, better control, and fewer system issues.”</p>
+                        <footer>— Business Owner</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-heading center">
+                    <p class="eyebrow">Featured work</p>
+                    <h2>Project snapshots from live deployments.</h2>
+                </div>
+
+                <div class="video-showcase">
+                    <article class="video-card">
+                        <video class="video-frame" controls preload="metadata">
+                            <source src="videos/school ptz camera installation.mp4" type="video/mp4">
+                        </video>
+                        <div class="video-body">
+                            <span class="pill">CCTV</span>
+                            <h3>School PTZ installation</h3>
+                            <p>High-visibility surveillance deployment for monitoring entrances, open spaces, and perimeter activity.</p>
+                        </div>
+                    </article>
+
+                    <article class="video-card">
+                        <video class="video-frame" controls preload="metadata">
+                            <source src="videos/fire pannel.mp4" type="video/mp4">
+                        </video>
+                        <div class="video-body">
+                            <span class="pill">Safety</span>
+                            <h3>Fire panel monitoring</h3>
+                            <p>Integrated alarm and response support to strengthen safety systems for business and institutional environments.</p>
+                        </div>
+                    </article>
+
+                    <article class="video-card">
+                        <video class="video-frame" controls preload="metadata">
+                            <source src="videos/site biometric installation.mp4" type="video/mp4">
+                        </video>
+                        <div class="video-body">
+                            <span class="pill">Access Control</span>
+                            <h3>Biometric access setup</h3>
+                            <p>Secure identity verification and access control implementation for smooth visitor and staff management.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Why choose Peter Kelly</p>
+                    <h2>Practical expertise built around results, safety, and long-term reliability.</h2>
+                </div>
+
+                <div class="module-grid">
+                    <div class="info-card">
+                        <h3>End-to-end delivery</h3>
+                        <p>From initial assessment and system design to installation, testing, and ongoing support, every stage is managed with precision and accountability.</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Dependable support</h3>
+                        <p>Long-term performance matters. I focus on preventive maintenance, responsive troubleshooting, and solutions that remain effective after deployment.</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Tailored recommendations</h3>
+                        <p>Each solution is designed around your site conditions, business goals, security risks, and operational requirements rather than a one-size-fits-all approach.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="impact" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Impact</p>
+                    <h2>Results that strengthen operations.</h2>
+                </div>
+
+                <div class="impact-grid">
+                    <div class="stat-card">
+                        <h3 data-count="120">0</h3>
+                        <p>Projects completed across software, security, and infrastructure.</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 data-count="7">0</h3>
+                        <p>Years of practical technology experience and technical delivery.</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 data-count="50">0</h3>
+                        <p>Hardware and system deployments delivered for clients and facilities.</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 data-count="24">0</h3>
+                        <p>Hours of responsive support and issue resolution when it matters most.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container process-grid">
+                <div class="section-heading left">
+                    <p class="eyebrow">Process</p>
+                    <h2>A structured approach from assessment to delivery.</h2>
+                </div>
+
+                <div class="process-steps">
+                    <div class="step">
+                        <span>01</span>
+                        <h3>Assess</h3>
+                        <p>I understand your current challenges, goals, and operational environment.</p>
+                    </div>
+                    <div class="step">
+                        <span>02</span>
+                        <h3>Design</h3>
+                        <p>I recommend the right mix of software, hardware, and security measures.</p>
+                    </div>
+                    <div class="step">
+                        <span>03</span>
+                        <h3>Deploy</h3>
+                        <p>I install and integrate systems efficiently with minimal disruption.</p>
+                    </div>
+                    <div class="step">
+                        <span>04</span>
+                        <h3>Support</h3>
+                        <p>I stay active after deployment to optimize performance and resolve issues.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section request-section">
+            <div class="container request-wrap">
+                <div class="request-copy">
+                    <p class="eyebrow">Get in touch</p>
+                    <h2>Tell me about your project and I’ll recommend the right technology solution.</h2>
+                    <p>
+                        Whether you need better security, stronger infrastructure, software automation, or improved site operations, I can help design a reliable solution for your environment and budget.
+                    </p>
+                    <div class="contact-list">
+                        <div>
+                            <strong>Phone</strong>
+                            <a href="tel:+255711619768">0711619768</a>
+                            <a href="tel:+255756268288">0756268288</a>
+                        </div>
+                        <div>
+                            <strong>WhatsApp</strong>
+                            <a href="https://wa.me/255711619768?text=Hello%20Peter%20Kelly%2C%20I%20need%20a%20quote%20for%20your%20services." target="_blank" rel="noreferrer">Chat for a quote</a>
+                        </div>
+                        <div>
+                            <strong>Social</strong>
+                            <a href="https://www.tiktok.com/@foritu_technologies" target="_blank" rel="noreferrer">@foritu_technologies</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form id="serviceForm" class="contact-form">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <select name="service" required>
+                        <option value="">Select a service</option>
+                        <option>Business Software</option>
+                        <option>CCTV Installation</option>
+                        <option>Networking</option>
+                        <option>Electric Fence</option>
+                        <option>Biometric Access</option>
+                        <option>Support & Maintenance</option>
+                    </select>
+                    <textarea name="message" rows="5" placeholder="Tell me about your project and requirements"></textarea>
+                    <button type="submit" class="button">Submit request</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-wrap">
+            <p>© <span id="year"></span> Peter Kelly. All rights reserved.</p>
+            <span>Network Engineer / IT Consultant</span>
+        </div>
+    </footer>
+
+    <div id="portfolioModal" class="modal" aria-hidden="true">
+        <div class="modal-content">
+            <div class="modal-toolbar">
+                <button type="button" class="modal-back" aria-label="Back to gallery">⟲ Back</button>
+                <button type="button" class="close" aria-label="Close">&times;</button>
+            </div>
+            <h3 id="modalTitle"></h3>
+            <p id="modalDesc"></p>
+            <div class="modal-gallery" id="modalGallery"></div>
+        </div>
+    </div>
+
+    <a class="whatsapp-float" href="https://wa.me/255711619768?text=Hello%20Peter%20Kelly%2C%20I%20would%20like%20a%20quote%20for%20your%20services." target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">WhatsApp</a>
+    <script src="app.js"></script>
+</body>
+</html>
